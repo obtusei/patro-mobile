@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patro</string>
+    <string name="widget_today_label">Patro · Today</string>
+    <string name="widget_today_description">Today\'s Nepali date, tithi and events</string>
+    <string name="widget_month_label">Patro · Month</string>
+    <string name="widget_month_description">This Bikram Sambat month, with holidays and events</string>
+    <string name="widget_open_app_hint">Open Patro to load the Nepali calendar</string>
+    <string name="widget_no_events">No events today</string>
+    <string name="widget_more_events">+%1$d more</string>
+    <string name="widget_previous_month">Previous month</string>
+    <string name="widget_next_month">Next month</string>
+    <string name="widget_no_events_day">No events</string>
+    <string name="widget_agenda_label">Patro · Upcoming</string>
+    <string name="widget_agenda_description">Coming holidays, festivals and your events</string>
+    <string name="widget_date_label">Patro · Date</string>
+    <string name="widget_date_description">Today\'s Nepali date in a small tile</string>
+    <string name="widget_holiday_label">Patro · Next holiday</string>
+    <string name="widget_holiday_description">Days left until the next public holiday</string>
+    <string name="widget_upcoming">Upcoming</string>
+    <string name="widget_nothing_upcoming">Nothing coming up</string>
+    <string name="widget_today_word">Today</string>
+    <string name="widget_tomorrow">Tomorrow</string>
+    <string name="widget_next_holiday">NEXT HOLIDAY</string>
+    <string name="widget_holiday_today">HOLIDAY TODAY</string>
+    <string name="widget_public_holiday">Public holiday</string>
+    <string name="widget_no_holiday">No holidays ahead</string>
+    <plurals name="widget_days">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <string name="notification_channel_today">Today\'s date</string>
+    <string name="notification_channel_today_description">Keeps today\'s Nepali date and events in the notification shade</string>
+    <string name="notification_channel_reminders">Event reminders</string>
+    <string name="notification_channel_reminders_description">Reminders for events you add in Patro</string>
+</resources>

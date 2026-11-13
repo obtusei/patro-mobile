@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Alternate launcher icons; keep in step with lib/models/app_icon.dart. -->
+<resources>
+    <color name="icon_obsidian_background">#121214</color>
+    <color name="icon_obsidian_foreground">#FFD700</color>
+    <color name="icon_snow_background">#FFFFFF</color>
+    <color name="icon_snow_foreground">#111113</color>
+    <color name="icon_midnight_background">#0B1020</color>
+    <color name="icon_midnight_foreground">#8AB4FF</color>
+    <color name="icon_chalkboard_background">#1F2A24</color>
+    <color name="icon_chalkboard_foreground">#F6E7A1</color>
+    <color name="icon_rhododendron_background">#1A0F12</color>
+    <color name="icon_rhododendron_foreground">#FF8FA3</color>
+    <color name="icon_himalaya_background">#3A6E8F</color>
+    <color name="icon_himalaya_foreground">#FFFFFF</color>
+</resources>

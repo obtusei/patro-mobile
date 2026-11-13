@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_root"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/cell_mark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1.5dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_cell_mark"
+        android:visibility="gone" />
+
+    <!-- The day picked on the widget, when it isn't today. -->
+    <ImageView
+        android:id="@+id/cell_ring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1.5dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_cell_ring"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cell_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cell_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cell_dot"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="4dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/widget_dot"
+        android:visibility="gone" />
+</FrameLayout>

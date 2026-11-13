@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Patro red; matches the app icon background (assets/images/background.png). -->
+    <color name="splash_background">#C21D1D</color>
+</resources>

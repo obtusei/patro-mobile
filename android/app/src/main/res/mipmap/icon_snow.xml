@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 7 has no adaptive icons: a round tile instead. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/icon_snow_background" />
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:drawable="@drawable/icon_snow_foreground"
+            android:inset="22%" />
+    </item>
+</layer-list>
